@@ -8,6 +8,8 @@ from .Orcamentos import Orcamentos
 from .Servicos import Servicos
 from .OrcamentoServico import OrcamentoServico
 from .Contatos import Contatos
+from .Mensagens import Mensagens
+from .Questionario import Questionario
 
 __all__ = [
     "Base",
@@ -19,4 +21,6 @@ __all__ = [
     "Servicos",
     "OrcamentoServico",
     "Contatos",
+    "Mensagens",
+    "Questionario"
 ]
